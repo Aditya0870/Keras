@@ -34,15 +34,13 @@ def infer_images(model, file_list):
     return preds
 
 def main():
-    # Load configurations for datasets
+
     outdoor_conf = load_config("kitti")  # For Outdoor dataset
     indoor_conf = load_config("nyu")     # For Indoor dataset
 
-    # Build models
     outdoor_model = load_model(outdoor_conf)
     indoor_model = load_model(indoor_conf)
 
-    # Base directory for inference
     base_dir = "depth/monodepth3/data/syns_patches"
 
     with open(os.path.join(base_dir, "splits/test_files.txt"), "r") as file:
