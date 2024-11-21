@@ -33,11 +33,9 @@ nyu_depth_v2/
 ```
 
 ## Preprocessing
-**Ensure and cross verify the paths before running**
-Here is the directory structure of preprocessing directory
+**Ensure and cross-verify the paths before running**
+Here is the directory structure of the preprocessing directory
 
-```markdown
-# Folder Structure
 
 ```
 root/
@@ -49,7 +47,6 @@ root/
 │   ├── diode.py
 │   └── nyu_preprocess.py
 ```
----
 
 ```bash
 cd preprocessing
