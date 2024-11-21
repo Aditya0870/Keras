@@ -45,12 +45,14 @@ nyu_depth_v2/
 ```
 
 ## Preprocessing
+
 Ensure the dataset paths are correctly set in the `nyu_preprocess.py` file to preprocess the NYU dataset.
 
-### Run the following:
+### Run the following to preprocess the NYU dataset:
 
 ```bash
 python nyu_preprocess.py
+```
 
 ## Training  
 Set up the configurations in the `train_mono.py` file. And to train the model, execute:  
