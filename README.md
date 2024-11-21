@@ -2,6 +2,12 @@
 
 In this repository we prepared the solution for the **CVPR2024 Monocular Depth Estimation Challenge**, utilizing the **NYUv2 dataset** for training and evaluation. Our models achieve good performance on the challenge leaderboard.
 
+## Challenge
+
+Monocular Depth Estimation (MDE) is a key challenge in computer vision that aims to predict the depth of a scene from a single RGB image. Accurate depth estimation is critical for applications such as autonomous vehicles, robotics, and augmented reality. While significant progress has been made in monocular depth estimation, challenges remain in areas such as depth discontinuities, thin structure handling, and generalization to diverse environments.
+
+In this project, we aim to develop an improved depth estimation model using the *NYUv2* dataset, focusing on enhancing key metrics such as \textit{F-Score}, \textit{MAE}, and \textit{RMSE}, particularly in complex scenes with depth variations.
+
 ## Overview of Model Inference
 
 Our model predicts depth maps from monocular RGB images. Below is an example showing the input image and its corresponding depth prediction:
