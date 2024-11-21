@@ -47,6 +47,7 @@ root/
 │   ├── diode.py
 │   └── nyu_preprocess.py
 ```
+Enter into the preprocessing directory to find the files
 
 ```bash
 cd preprocessing
