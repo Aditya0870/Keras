@@ -45,56 +45,12 @@ nyu_depth_v2/
 ```
 
 ## Preprocessing
-**Ensure and cross-verify the paths before running**
-Here is the directory structure of the preprocessing directory
+Ensure the dataset paths are correctly set in the `nyu_preprocess.py` file to preprocess the NYU dataset.
 
-
-```
-root/
-├── preprocessing/
-│   ├── img_preprocess.py
-│   ├── img_augmentation.py
-│   ├── preprocess.py
-│   ├── vkitti.py
-│   ├── diode.py
-│   └── nyu_preprocess.py
-```
-Enter into the preprocessing directory to find the files
-
-```bash
-cd preprocessing
-```
-To arrange and organize files neatly based on file formats and map the color gradings to images run :
-```bash
-python preprocess.py
-```
-Ensure the dataset paths are correctly set in the `nyu_preprocess.py` file to preprocess the NYU dataset. For preprocessing, run:
+### Run the following:
 
 ```bash
 python nyu_preprocess.py
-```
-
-Similarly, run the files for the diode and Vkitti datasets, found in the preprocessing folder, and ensure the paths are correctly set.
-
-```bash
-python diode.py
-```
-```bash
-python vkitti.py
-```
-
-To standardize all the images into a single format of shape and size, and handle the borders and cropping etc run :
-
-```bash
-python img_preprocess.py
-```
-If you want to train on a particular type of data say indoor or outdoor and find data to be insufficient run augmentation techniques , run:
-
-
-```bash
-python img_augmentation.py
-```
-
 
 ## Training  
 Set up the configurations in the `train_mono.py` file. And to train the model, execute:  
@@ -124,6 +80,23 @@ python new_inference.py
 ```
 
 ---
+
+## Deployment
+
+We have deployed the model as a web application that allows users to upload an image, and the model generates and displays the corresponding depth map.
+
+### Web Interface and Depth Map Result
+
+Below are screenshots of the web interface and the resulting depth map:
+
+| Web Interface | Depth Map Result |
+|-----------------------------------|--------------------------------------|
+| ![Web Interface](./images/interface.png) | ![Depth Map Result](./images/working.png) |
+
+**Step-by-Step Process**:
+1. **Upload Image**: On the web interface, the user can upload an image of a scene.
+2. **Get Depth Map**: After uploading, the model processes the image and displays the predicted depth map on the same page.
+
 
 ## Results  
 
