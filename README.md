@@ -85,13 +85,13 @@ python new_inference.py
 
 We have deployed the model as a web application that allows users to upload an image, and the model generates and displays the corresponding depth map.
 
-### Web Interface and Depth Map Result
+### Depth Map Result
 
-Below are screenshots of the web interface and the resulting depth map:
+Below is a screenshot showing the predicted depth map after uploading an image:
 
-| Web Interface | Depth Map Result |
-|-----------------------------------|--------------------------------------|
-| ![Web Interface](./images/interface.png) | ![Depth Map Result](./images/working.png) |
+| Depth Map Result               |
+|---------------------------------|
+| ![Depth Map Result](./images/working.png) |
 
 **Step-by-Step Process**:
 1. **Upload Image**: On the web interface, the user can upload an image of a scene.
