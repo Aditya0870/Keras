@@ -32,13 +32,22 @@ nyu_depth_v2/
 ├──sync/
 ```
 
-Ensure the dataset paths are correctly set in the `nyu_preprocess.py` file. For preprocessing, run:
+Ensure the dataset paths are correctly set in the `nyu_preprocess.py` file to preprocess the NYU dataset. For preprocessing, run:
 
 ```bash
 python nyu_preprocess.py
 ```
 
 ---
+Similarly, run the files for the diode and Vkitti datasets, found in the preprocessing folder, and ensure the paths are correctly set.
+
+```bash
+python diode.py
+```
+```bash
+python vkitti.py
+```
+
 
 ## Training  
 Set up the configurations in the `train_mono.py` file. And to train the model, execute:  
