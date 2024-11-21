@@ -2,6 +2,18 @@
 
 In this repository we prepared the solution for the **CVPR2024 Monocular Depth Estimation Challenge**, utilizing the **NYUv2 dataset** for training and evaluation. Our models achieve good performance on the challenge leaderboard.
 
+## Overview of Model Inference
+
+Our model predicts depth maps from monocular RGB images. Below is an example showing the input image and its corresponding depth prediction:
+
+| Input Image                         | Predicted Depth Map                |
+|-------------------------------------|-------------------------------------|
+| ![Input Image](./images/raw.jpeg)  | ![Depth Map](./images/depth.png)    |
+
+These results highlight the model's ability to infer depth information accurately and provide a visual representation of its performance.
+
+---
+
 ## Dataset  
 We use the **NYUv2 dataset** for training and evaluation. Follow these steps to prepare the dataset:
 
