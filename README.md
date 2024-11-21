@@ -33,7 +33,7 @@ nyu_depth_v2/
 ```
 
 ## Preprocessing
-** Ensure and cross verify the paths before running**
+**Ensure and cross verify the paths before running**
 
 Ensure the dataset paths are correctly set in the `nyu_preprocess.py` file to preprocess the NYU dataset. For preprocessing, run:
 
