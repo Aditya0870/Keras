@@ -32,6 +32,8 @@ nyu_depth_v2/
 ├──sync/
 ```
 
+## Preprocessing
+
 Ensure the dataset paths are correctly set in the `nyu_preprocess.py` file to preprocess the NYU dataset. For preprocessing, run:
 
 ```bash
@@ -39,6 +41,11 @@ python nyu_preprocess.py
 ```
 
 ---
+
+```bash
+cd preprocessing
+```
+
 Similarly, run the files for the diode and Vkitti datasets, found in the preprocessing folder, and ensure the paths are correctly set.
 
 ```bash
@@ -46,6 +53,18 @@ python diode.py
 ```
 ```bash
 python vkitti.py
+```
+
+To standardize all the images into a single format of shape and size, and handle the borders and cropping etc run :
+
+```bash
+python img_preprocess.py
+```
+If you want to train on a particular type of data say indoor or outdoor and find data to be insufficient run augmentation techniques , run:
+
+
+```bash
+python img_augmentation.py
 ```
 
 
