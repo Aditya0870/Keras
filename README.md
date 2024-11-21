@@ -145,9 +145,8 @@ Below is a screenshot showing the predicted depth map after uploading an image:
 ### Final Leaderboard  
 Performance metrics on the NYUv2 test dataset:  
 
-| Rank | User           | Team Name    | F-Score (↑) | F-Score (Edges) (↑) | MAE (↓) | RMSE (↓) | AbsRel (↓) | Edge Accuracy (↑) | Edge Completion (↑) |
-|------|----------------|--------------|-------------|----------------------|---------|----------|------------|--------------------|----------------------|
-| 1    | your_user_name | Your Team    | 21.3456     | 12.8765             | 3.4567  | 6.5432   | 18.7654    | 3.9876             | 7.2345              |
-| 2    | second_user    | Second Team  | 20.9876     | 11.5432             | 3.8765  | 6.9876   | 19.2345    | 4.1234             | 8.1234              |
+| User           | Team Name    | F-Score (↑) |  MAE (↓)  | RMSE (↓) | AbsRel (↓) |
+|----------------|--------------|-------------|----------|----------|-------------|
+| Aditya0870     | Keras        | 21.3        |  4.1     | 10.9     | 18.7654     |
 
 ---
