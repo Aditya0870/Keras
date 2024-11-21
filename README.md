@@ -33,6 +33,7 @@ nyu_depth_v2/
 ```
 
 ## Preprocessing
+** Ensure and cross verify the paths before running**
 
 Ensure the dataset paths are correctly set in the `nyu_preprocess.py` file to preprocess the NYU dataset. For preprocessing, run:
 
@@ -44,6 +45,10 @@ python nyu_preprocess.py
 
 ```bash
 cd preprocessing
+```
+To arrange and organize files neatly based on file formats and map the color gradings to images run :
+```bash
+python preprocess.py
 ```
 
 Similarly, run the files for the diode and Vkitti datasets, found in the preprocessing folder, and ensure the paths are correctly set.
