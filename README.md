@@ -34,13 +34,21 @@ nyu_depth_v2/
 
 ## Preprocessing
 **Ensure and cross verify the paths before running**
+Here is the directory structure of preprocessing directory
 
-Ensure the dataset paths are correctly set in the `nyu_preprocess.py` file to preprocess the NYU dataset. For preprocessing, run:
+```markdown
+# Folder Structure
 
-```bash
-python nyu_preprocess.py
 ```
-
+root/
+├── preprocessing/
+│   ├── img_preprocess.py
+│   ├── img_augmentation.py
+│   ├── preprocess.py
+│   ├── vkitti.py
+│   ├── diode.py
+│   └── nyu_preprocess.py
+```
 ---
 
 ```bash
@@ -49,6 +57,11 @@ cd preprocessing
 To arrange and organize files neatly based on file formats and map the color gradings to images run :
 ```bash
 python preprocess.py
+```
+Ensure the dataset paths are correctly set in the `nyu_preprocess.py` file to preprocess the NYU dataset. For preprocessing, run:
+
+```bash
+python nyu_preprocess.py
 ```
 
 Similarly, run the files for the diode and Vkitti datasets, found in the preprocessing folder, and ensure the paths are correctly set.
